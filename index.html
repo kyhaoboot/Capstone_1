@@ -42,9 +42,11 @@
     <link rel="stylesheet" href="style.css" />
     <!-- ************** -->
   </head>
-  <body>
+  <body class="bg-gray-100">
     <!-- Header -->
-    <header class="fixed w-full left-0 top-0 z-999 py-7">
+    <header
+      class="fixed w-full left-0 top-0 z-999 py-7 bg-white !py-4 shadow transition duration-100 dark:bg-black"
+    >
       <div
         class="relative justify-between mx-auto max-w-8xl items-center px-4 md:px-8 xl:flex 2xl:px-0"
       >
@@ -184,7 +186,174 @@
         </div>
       </div>
     </header>
+    <!-- *************** -->
+    <!-- Carousel -->
+    <section
+      class="carousel overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46"
+    >
+      <div
+        class="carousel__container max-w-8xl mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0"
+      >
+        <div
+          class="carousel__content flex lg:items-center lg:gap-8 xl:gap-32.5"
+        >
+          <div class="carousel__text md:w-1/2">
+            <h4 class="mb-6 text-lg font-medium text-black dark:text-white">
+              <i class="fa fa-fire-alt"></i> Solid - A Complete SaaS Starter
+              Template for SaaS
+            </h4>
+            <h1
+              class="mb-5 pr-20 text-5xl font-bold text-black dark:text-white xl:text-hero"
+            >
+              Robust SaaS Boilerplate and Starter for <span>Next.js</span>
+            </h1>
+            <p class="text-gray-600 pr-20">
+              Packed with all the key integrations you need for swift SaaS
+              startup launch, including - Authentication, Database, Sanity Blog,
+              Essential UI Components, Business Pages and More. Built-winth -
+              Next.js, React 18 and TypeScript.
+            </p>
+            <div class="carousel__btn mt-10">
+              <a
+                href=""
+                class="inline-block rounded-full bg-gray-900 px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-gray-800"
+                >Get Started</a
+              >
+            </div>
+          </div>
+          <div class="carousel__img animate_right hidden md:w-1/2 lg:block">
+            <div class="image relative 2xl:-mr-7.5">
+              <img
+                src="image/carousel-left.png"
+                class="absolute -left-11.5 top-0"
+                alt=""
+              />
 
+              <img
+                src="image/carousel-right1.svg"
+                class="absolute bottom-0 right-0 z-10"
+                alt=""
+              />
+              <img
+                src="image/carousel-right2.svg"
+                class="absolute -right-6.5 bottom-0 z-1"
+                alt=""
+              />
+              <div class="img__content relative aspect-[700/444] w-full">
+                <img
+                  src="image/carousel-light.png"
+                  class="shadow-solid-l dark:hidden"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *************** -->
+    <!-- Logo Brand  -->
+    <section
+      class="logo__brand border border-x-0 bg-gray-50 py-11 dark:border-y-strokedark dark:bg-black"
+    >
+      <div class="brand__container mx-auto max-w-8xl px-4 md:px-8 2xl:px-0">
+        <div
+          class="brand__content grid items-center justify-center gap-7.5 md:grid-cols-6 lg:gap-12.5 xl:gap-29"
+        >
+          <a href="" class="animate_top mx-w-full relative block h-10 w-[98px]">
+            <img
+              src="image/logitech-light.svg"
+              class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+              alt=""
+            />
+          </a>
+          <a href="" class="animate_top mx-w-full relative block h-10 w-[98px]">
+            <img
+              src="image/dropcam-light.svg"
+              class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+              alt=""
+            />
+          </a>
+          <a href="" class="animate_top mx-w-full relative block h-10 w-[98px]">
+            <img
+              src="image/amda-light.svg"
+              class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+              alt=""
+            />
+          </a>
+          <a href="" class="animate_top mx-w-full relative block h-10 w-[98px]">
+            <img
+              src="image/nike-light.svg"
+              class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+              alt=""
+            />
+          </a>
+          <a href="" class="animate_top mx-w-full relative block h-10 w-[98px]">
+            <img
+              src="image/mandiri-light.svg"
+              class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+              alt=""
+            />
+          </a>
+          <a href="" class="animate_top mx-w-full relative block h-10 w-[98px]">
+            <img
+              src="image/amazon-light.svg"
+              class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- *************** -->
+    <!-- Features -->
+    <section id="feature" class="py-20 lg:py-25 xl:py-30">
+      <div class="feature__container mx-auto max-w-8xl px-4 md:px-8 xl:px-0">
+        <div class="feature__title animate_top mx-auto text-center">
+          <div
+            class="mb-4 inline-block rounded-full bg-blue-100 px-4.5 py-1.5 dark:border dark:border-strokedark dark:bg-blacksection"
+          >
+            <span
+              class="text-sectiontitle font-medium text-black dark:text-white"
+              >SOLID FEATURES</span
+            >
+          </div>
+          <h2
+            class="mx-auto mb-4 text-3xl font-bold text-black dark:text-white md:w-4/5 xl:w-1/2 xl:text-sectiontitle3"
+          >
+            Core Features of Solid
+          </h2>
+          <p class="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%] text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
+            ante in maximus.
+          </p>
+        </div>
+        <div
+          class="fueture__content mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-3 xl:mt-20 xl:gap-12.5"
+        >
+          <div
+            class="animate_top z-40 rounded-lg border bg-white p-7 hover:bg-gray-50 border border-solid-gray-600 hover:shadow-solid-10"
+          >
+            <div
+              class="relative flex h-16 w-16 items-center justify-center rounded-[4px] bg-blue-600"
+            >
+              <img src="image/feature-01.svg" alt="" />
+            </div>
+            <h3
+              class="mb-5 mt-7 text-xl font-semibold text-black dark:text-white xl:text-itemtitle"
+            >
+              Crafted for SaaS
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *************** -->
     <!-- CDN JS Flowbite -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.2/flowbite.min.js"
